@@ -4,7 +4,7 @@ Shortname: webextensions
 Level: 1
 Status: w3c/CG-DRAFT
 Group: WECG
-URL: https://w3c.github.io/webextensions
+URL: https://w3c.github.io/webextensions/specification/index.html
 Editor: Mukul Purohit, Microsoft Corporation https://www.microsoft.com, mpurohit@microsoft.com
 Editor: Tomislav Jovanovic, Mozilla https://www.mozilla.org/, tjovanovic@mozilla.com
 Abstract: [Placeholder] Abstract.
@@ -35,7 +35,7 @@ A WebExtension must have a manifest file at its root directory.
 
 ## Manifest file
 
-A manifest file is a [[!JSON]] document named `manifest.json`. Malformed JSON files are not supported.
+A manifest file is a [[!JSON]] document named `manifest.json`. Malformed JSON files are not supported. Note that some implementors may accept comments, represented by any content following `//` outside of a JSON string.
 
 ## Manifest keys
 
@@ -148,8 +148,58 @@ This key may be present.
 
 This key may be present.
 
+## Reserved file names
+
+Filenames beginning with an underscore (`_`) are reserved for use by user agent.
+
+# Isolated worlds
+
+# Unavailable APIs
+
+# The `browser` global
+
+# Extension origin
+
 # Localization
 
 The _locales subdirectory of a WebExtension can contain strings for internationalization purposes.
 
 Issue(62): Specify localization handling.
+
+# Host permissions
+
+## Cross-origin fetch
+
+# Match patterns
+
+# Concepts
+
+## Uniqueness of extension IDs
+
+## Promises and callbacks
+
+## User gestures and activeTab
+
+## Extension permissions and web perissions
+
+# Content security policy
+
+# Architecture
+
+## Background content
+
+## Content scripts
+
+### Isolated worlds
+
+## Extension pages
+
+# Classes of security risk
+
+# Web accessible resources
+
+# Interaction with the web
+
+## Current behavior of cookie partitioning
+
+# Version number handling

@@ -29,11 +29,29 @@ Once you have a Matrix client set up, you can join our room using the below addr
 
 ## How we work
 
-All WECG-related work currently takes place in the [web-extensions repository][wecg-repo] on GitHub. As a new group, we are currently in the process of establishing our conventions.
+All WECG-related work currently takes place in the [web-extensions repository][wecg-repo] on GitHub.
+
+The issue tracker tracks specific issues and long-running discussions for topics of interest to the members of the WECG.
+
+We meet virtually every other week, with the schedule and past meeting notes listed in [`_minutes/README.md`](_minutes/README.md).
+During these meetings, we check in on newly reported issues, existing issues and any other open discussion topics that have been added to the agenda.
+After the end of each meeting, its minutes are submitted via a pull request that also links the discussed issues for visibility.
+
+Outside the live meetings, [the chat][join-chat] is available to continue discussions.
+
+We are still working on establishing a process on creating the deliverables as stated in [the charter document](charter.md). Once that process matures, it will be documented here.
 
 ## Reporting
 
 Beyond posts needing moderator attention in chat, if you experience any violations to the Code of Conduct by any participant, please contact the Chairs or the W3C Head of Communications ([Coralie Mercier][email-coralie]).
+
+## Proposing an API Change
+
+If you would like to file a feature request or propose an API change, the first
+step is likely to [file a new issue](https://github.com/w3c/webextensions/issues/new)
+to solicit feedback. If there is general support on the issue, the next step is
+to write up a full API proposal following the process documented
+[here](proposals/proposal_process.md).
 
 [email-coralie]: mailto:coralie@w3.org
 [join-chat]: #joining-chat
@@ -41,7 +59,6 @@ Beyond posts needing moderator attention in chat, if you experience any violatio
 [moz-wiki-matrix]: https://wiki.mozilla.org/Matrix
 [w3c-code-of-conduct]: https://www.w3.org/Consortium/cepc/
 [w3c-new-account]: https://www.w3.org/accounts/request
-[w3c-pwe-list]: https://lists.w3.org/Archives/Public/public-pwe/
 [wecg-issues]: https://github.com/w3c/web-extensions/issues
 [wecg-join]: https://www.w3.org/community/webextensions/join
 [wecg-repo]: https://github.com/w3c/webextensions

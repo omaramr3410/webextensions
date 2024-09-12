@@ -182,6 +182,7 @@ The following things are out-of-scope:
     * file extensions
     * mime types
 * WebDriver integration
+* Extension stores
 
 ## Deliverables
 
@@ -200,12 +201,6 @@ standardize [Browser
 Extensions](https://browserext.github.io/browserext/). Much good
 progress was made, but unfortunately the spec did not gain sufficient
 interest from implementers and work on it ceased.
-
-The editors for this deliverable are:
-
-  * Mukul Purohit (Microsoft)
-  * Tomislav Jovanovic (Mozilla)
-
 
 ### Non-Normative Reports
 
@@ -233,8 +228,8 @@ standardization in an appropriate venue.
 
 The Chairs of the WebExtensions Community Group are:
 
-  * Simeon Vincent (Google)
-  * Timothy Hatcher (Apple)
+  * Simeon Vincent, Mozilla (previously Google)
+  * Timothy Hatcher, Apple
 
 The Chairs are responsible for the day-to-day running of the group,
 including:
@@ -259,6 +254,12 @@ The Chairs have a number of other powers and responsibilities which are
 defined throughout this document.
 
 ## Editors
+
+The Editors of the WebExtensions Community Group are:
+
+  * Mukul Purohit, Microsoft
+  * Tomislav Jovanovic, Mozilla
+  * Oliver Dunk, Google
 
 Each [Deliverable](#deliverables) has one or more Editors who are
 appointed by the [Chairs](#chairs).
